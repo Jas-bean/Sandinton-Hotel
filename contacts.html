@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <title>Contact Us</title>
+</head>
+
+<body>
+<!-- NAV MENU-->
+
+    <script src="script.js"></script>
+    <header class="header" id="navigation-menu">
+        <div class= "container">
+            <nav>
+                <a href="index.html" class="logo"><img src="images/Vectorlogo white 2.svg" alt="logo"> </a>
+
+                <ul class="nav-menu">
+                    <li> <a href="room.html" class="nav-link">Accomodations</a></li>
+                    <li><a href="facilities.html" class="nav-link">Health & Wellness</a></li>
+                    <li><a href="cafe.html" class="nav-link">Nautilus cafe</a></li>
+                    <li><a href="contacts.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- HEADER-->
+
+    <section class="page-header">
+        <div class="head_container">
+            <div class="box">
+                <div class="text">
+                    <h1>Get In Touch</h1>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/colin-watts-M1ObxvsWVhY-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+<!-- INFO-->
+
+        <section class="contact">
+            <h5 class="kind"> Phone </h5>
+                <h2>+63919-056-7789 </h2>
+                <h2>(632) 8860-5961</h2>
+                <br>
+            <h5 class="kind"> Email Address </h5>
+                <h2>reservations@sandintonhotel.com</h2>
+    </section>
+
+
+<!-- MAP-->
+    <div class="map-header">
+        <h5>NEVER GET LOST</h5>
+        <h2>Find You Way To Sandition Hotel</h2>
+    </div>
+    <section class="map top">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0507844553777!2d121.18258987574117!3d14.596182077183526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bf45d68e5a9f%3A0x21a275f0933519f4!2sMelendres%20Farm!5e0!3m2!1sen!2sph!4v1708708498834!5m2!1sen!2sph" width="600" height="450" style="border:0;"
+          allowfullscreen="" loading="lazy"></iframe>
+      </section>
+    </section>
+
+    <div id="Full-address">
+        <hr class="detail">
+        <h5>MAIN BRANCH</h5>
+        <h2>Sandinton Hotel, El Nido, Palawan</h2>
+        <hr class="detail1">
+        
+        <br/><br/>
+            <h5>OTHER BRANCHES</h5>
+            <h3>Boracay , Zambales , La Union</h3>        
+            <hr class="detail">
+
+        </div>
+
+    </div>
+
+<!-- FORM-->
+
+<div class="containerz">
+    <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+            <div class="header">
+                <div class="header-text">
+                    <h5>HOW CAN WE HELP?</h5>
+                    <h2>Contact Us</h2>
+                </div>
+
+                <div class="header-img">
+                    <img src="images/Rectangle 4538.svg" alt="shape" id="shape">
+                </div>
+             </div>
+            <form name="RegForm" class="RegForm" >
+                
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="Enter your full name"/>
+                <span id="name-error" class="error-message"></span>
+            </p>
+
+            <br/>
+
+
+            <p>
+                <label for="email">E-mail Address</label>
+                <input type="text" id="email" name="Email" placeholder="Enter your email"/>
+                <span id="email-error" class="error-message"></span>
+            </p>
+
+            <br/>
+
+
+
+            <p>
+                <label for="subject">Branch</label>
+                <select id="subject" name="subject">
+
+                    <option value="">Select Branch</option> 
+                    <option value="El Nido, Palawan">El Nido, Palawan</option>
+                    <option value="Boracay">Boracay</option>
+                    <option value="Liwliwa, Zambales">Liwliwa, Zambales</option>
+                    <option value="La Union">La Union</option>
+
+                </select>                 
+
+                <span id="subject-error" class="error-message"></span>
+            </p>
+
+            <br/>
+
+            <p>
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Add your message"/>
+                <span id="message-error" class="error-message"></span>
+            </p>
+
+
+
+            <p id="checkbox-form">
+                <input type="checkbox" id="agree" name="Agree"/>
+
+                <label for="agree"
+                    >I agree to the above
+                    information</label
+                >
+                
+                <br/>
+
+                <span
+                    id="agree-error"
+                    class="error-message"
+                ></span>
+            </p>
+
+            <br/>
+
+            <p id="form-buttons">
+                <input
+                    type="button"
+                    value="Send"
+                    name="Submit"
+                    onclick="validateForm()"
+                />
+
+                <input
+                    type="reset"
+                    value="Reset"
+                    name="Reset"
+                />
+            </p>
+    
+        </form>
+        
+        </div>
+    </div>
+</div>
+
+<!-- FAQ Accordion-->
+ 
+
+<div class="accordion-box">
+    
+    <div class="accordion">
+
+        <div class="accordion-title">
+            <h5>FAQ</h5>
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="contentBx">
+            <div class="label">Are there any nearby attractions or points of interest?</div>
+            <div class="content">
+                <p>Yes, our resort is ideally located near a variety of attractions including scenic hiking trails, cultural landmarks, and vibrant local markets. Our concierge team can provide recommendations and assist with arranging excursions.</p>
+            </div>
+        </div>
+
+        <div class="contentBx">
+            <div class="label">Do you have a restaurant on-site?</div>
+            <div class="content">
+                <p>Yes, we have a beachfront restaurant that serves organic, locally sourced meals focusing on health and wellness. Our menu is carefully crafted to nourish both body and soul.</p>
+            </div>
+        </div>
+
+        <div class="contentBx">
+            <div class="label">What dining options are available at the resort?</div>
+            <div class="content">
+                <p>We offer a variety of dining experiences, including our beachfront restaurant serving gourmet cuisine, a casual poolside bar, and in-room dining options for your convenience.</p>
+            </div>
+        </div>
+
+
+        <div class="contentBx">
+            <div class="label">Do you have wellness packages available?</div>
+            <div class="content">
+                <p>Absolutely! We offer tailored wellness packages that include activities such as yoga classes, guided meditation sessions, beachside fitness activities, nutritional workshops, and more. Contact our wellness concierge to customize your wellness retreat.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-img">
+        <img src="images/cauayan-island-resort-9nN0t9m9onU-unsplash.jpg" class = "FAQ-img1" alt="">
+    </div>
+
+</div>
+
+    <script>
+    const accordion = document.getElementsByClassName("contentBx");
+
+    for (i=0; 1<accordion.length; i++) {
+    accordion[i].addEventListener('click', function(){
+        this.classList.toggle('active')
+     })
+    }
+    </script>
+
+
+
+<!-- FOOTER-->
+
+<footer>
+
+
+    <div class="footer">  
+
+      <div class="footer-img">
+        <img src="images/Vectorlogo white 2.svg" alt="logo">
+      </div>
+      
+      <div class="row" id="row1">
+        <ul>
+          <li><a href="contacts.html">Contact us</a></li>
+          <li><a href="room.html">Rooms</a></li>
+          <li><a href="facilities.html">Packages</a></li>
+          <li><a href="cafe.html">Nautilus Cafe</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content" id="row2"></div>
+        <div class="row">
+        <a href=""><img src="images/Platform=Facebook, Color=Negative.svg" class="socmed" alt="fb logo"></a>
+        <a href="#"><img src="images/Platform=Instagram, Color=Negative.svg" class="socmed" alt="ig logo"></a>
+        <a href="#"><img src="images/Platform=TikTok, Color=Negative.png" class="socmed" alt="tiktok logo"></i></a>
+        <a href="#"><img src="images/Platform=X (Twitter), Color=Negative.svg" class="socmed" alt="x logo"></i></a>
+      </div>
+
+      <div class="row" id="row3">
+       Copyright © 2024 Sanditon Hotel - All rights reserved || Designed By: Jasmin Gonzaga 
+      </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
